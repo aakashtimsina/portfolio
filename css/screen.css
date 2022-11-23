@@ -1,0 +1,40 @@
+.home .max-tab{
+    font-family: 'Permanent Marker', cursive;
+    display: none;
+}
+.home .max-tab .btn_contact {
+    margin-top: 15px;
+}
+.home .max-tab a {
+    border: 1px solid crimson;
+    border-radius: 0.3rem;
+    font-family: 'Baloo Bhai 2';
+    font-weight: bolder;
+    color: #fff;
+    padding: 5px;
+    background-color: crimson;
+}
+
+.home .max-tab .text1 {
+    font-size: 1.92rem;
+}
+
+.home .max-tab .text2 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color:#00bfa6;
+}
+
+.home .max-tab .text2:hover{
+    color:rgb(7, 255, 176);
+    font-weight: 800;
+    font-size: 3.1rem;
+}
+.home .max-tab .text3 {
+    font-size: 1.95rem;
+    animation: aakash 7s infinite ;
+}
+.home-img{
+    padding: 10px 80px;
+}

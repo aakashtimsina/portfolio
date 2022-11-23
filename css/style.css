@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Permanent+Marker&family=Ubuntu:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+/* body {
+    background: url(../images/bg.jpg) no-repeat center center/cover;
+    min-height: 100vh;
+    position: relative;
+} */
+/* navbar styling */
+.navbar {
+    padding: 25px 0px;
+    font-family: 'Baloo Bhai 2';
+}
+.navbar .max {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 80px;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.navbar .max #check{
+    display: none;
+}
+.navbar .max #check:checked~ ul{
+    left:0;
+}
+.logo a {
+    color: #00bfa6;
+}
+.logo #check-btn{
+    display: none;
+}
+.navbar ul {
+    background-color: #000;
+    display: flex;
+    justify-content: space-around;
+    transition: .5s;
+}
+.navbar ul li {
+    list-style: none;
+    padding-right: 50px;
+}
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.navbar ul li .login{
+    background-color: rgba(59,130,246);
+    border-radius: 0.2rem;
+    padding: 2px;
+}
+.navbar ul li .native_color{
+    color: #fff;
+}
+.navbar ul li a:hover {
+    color: grey;
+}
+
+/* Home Page Styling */
+.home {
+    font-family: 'Ubuntu';
+    padding: 80px 80px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.home .max{
+    font-family: 'Permanent Marker', cursive;
+}
+.home .max .btn_contact {
+    margin-top: 15px;
+}
+.home .max a {
+    border: 1px solid crimson;
+    border-radius: 0.3rem;
+    font-family: 'Baloo Bhai 2';
+    font-weight: bolder;
+    color: #fff;
+    padding: 5px;
+    background-color: crimson;
+}
+
+.home .max .text1 {
+    font-size: 1.92rem;
+}
+
+.home .max .text2 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color:#00bfa6;
+}
+
+.home .max .text2:hover{
+    color:rgb(7, 255, 176);
+    font-weight: 800;
+    font-size: 3.1rem;
+}
+.home .max .text3 {
+    font-size: 1.95rem;
+    animation: aakash 7s infinite ;
+}
+@keyframes aakash {
+    0%{
+        color:#00bfa6;
+    }
+    25%{
+        color:#c7ea00;
+    }
+    50%{
+        color:#2f5de8;
+    }
+    100%{
+        color:#e96a0f;
+    }
+}
+/* About Page Styling */
+
+.about_container {
+    display: flex;
+}
+
+.in_image {
+    padding: 80px 80px;
+
+}
+
+.in_image img {
+    width: 380px;
+    height: 390px;
+    border: 2px solid white;
+    border-radius: 0.4rem;
+}
+
+.about_container .about_content {
+    background-color: white;
+    margin-right: 80px;
+    margin-top: 80px;
+    padding: 1rem;
+    height: 390px;
+    border: 2px solid white;
+    border-radius: 0.4rem;
+    width: 100%;
+    font-family: 'Baloo Bhai 2';
+}
+
+.about_container .about_content h2 {
+    color: black;
+    font-weight: bolder;
+    font-size: 1.6rem;
+}
+
+.about_container .about_content h2 span {
+    color: #00bfa6;
+}
+
+.about_container .about_content p {
+    font-size: 1.2rem;
+}
+.short_intro {
+    margin-top: 10px;
+
+}
+
+.short_intro li {
+    width: 280px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4px;
+}
+.short_intro li .short_int {
+    padding: 0.3rem;
+    border: 2px solid #00bfa6;
+    border-radius: 0.3rem;
+    background-color: #00bfa6;
+    color: white;
+    font-weight: 450;
+}
+
+.short_intro li span {
+    padding: 0.3rem;
+}
+
+/* Skill Page Styling */
+.skill_container{
+    display: flex;
+}
+.skill_content{
+    background-color: white;
+    margin-right: 80px;
+    margin-top: 80px;
+    padding: 1rem;
+    height: 390px;
+    border: 2px solid white;
+    border-radius: 0.4rem;
+    width: 100%;
+    font-family: 'Baloo Bhai 2';
+}
+.skill_content hr{
+    border-top: 2px solid #00bfa6;
+    border-radius: 0.4rem;
+    width: 100px;
+}
+.skill_content progress{
+    color: #00bfa6;
+    border: 1px solid #00bfa6;
+    background-color: #00bfa6;
+    border-radius: 0.3rem;
+    margin-left: 10px;
+    height: 25px;
+    width: 220px;
+}
+.skill_content progress::-webkit-progress-value{
+    background: #00bfa6;
+}
+
+/* Contact Me Styling */
+.contact_container {
+    display: flex;
+}
+
+.contact_content {
+    background-color: white;
+    margin-right: 80px;
+    margin-top: 80px;
+    padding: 1rem;
+    height: 390px;
+    border: 2px solid white;
+    border-radius: 0.4rem;
+    width: 100%;
+    font-family: 'Baloo Bhai 2';
+}
+
+.contact_content h2 {
+    color: black;
+    font-weight: bolder;
+    font-size: 1.6rem;
+}
+
+.contact_content h2 span {
+    color: #00bfa6;
+}
+
+.contact_content form input {
+    display: block;
+    padding: 0.26rem;
+    width: 100%;
+    height: 24px;
+    border: none;
+    border-radius: 0.3rem;
+    background-color: #d3d3d3;
+}
+
+.contact_content form input[type=submit] {
+    padding: 0;
+    background: #00bfa6;
+    font-family: "Baloo Bhai 2";
+    font-size: 1.1rem;
+}
+
+.contact_content form textarea {
+    height: 5rem;
+    margin-top: 10px;
+    width: 100%;
+    font-size: 1rem;
+    padding: 0.3rem;
+    border: none;
+    outline: none;
+    background-color: #d3d3d3;
+    border-radius: 0.4rem;
+    resize: none;
+}
+
+/* Login Page Styling */
+.login_container{
+    display: flex;
+}
+.login_content {
+    background-color: white;
+    margin-right: 80px;
+    margin-top: 80px;
+    padding: 1rem;
+    height: 390px;
+    border: 2px solid white;
+    border-radius: 0.4rem;
+    width: 100%;
+    font-family: 'Baloo Bhai 2';
+}
+.login_content  form {
+    margin-top: 5px;
+}
+.login_content  form input{
+display: block;
+padding: 0.26rem;
+width: 100%;
+height: 30px;
+border: none;
+border-radius: 0.2rem;
+background-color: #d3d3d3;
+}
+.login_content  form [type="submit"]{
+    margin-top: 14px;
+    border-color: crimson;
+    background-color: crimson;
+    font-weight: bold;
+    font-size: 1.06rem;
+}
+.login_content  form div span a{
+margin-left: 68%;
+color: #000;  
+font-weight: 600;
+}
+.login_content .signup {
+   text-align: center;
+   margin-top: 15px;
+}
+.login_content a button span{
+    font-size: 16px;
+    font-family: 'Ubuntu';
+    color: #00bfa6;
+}

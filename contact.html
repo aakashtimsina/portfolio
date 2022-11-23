@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+    <title>Aakash Timsina</title>
+</head>
+
+<body style="background:#000;">
+    <nav class="navbar">
+        <div class="max">
+            <input type="checkbox" id="check">
+            <div class="logo" style="justify-content: space-between; display:flex;"><a href="index.html">Aakash Timsina</a>
+                <label for="check" id="check-btn"><i class="fa-solid fa-bars" style="color: white;"></i></label>
+            </div>
+            <ul class="menu">
+                <li><a href="index.html" class="native_color">Home</a></li>
+                <li><a href="about.html" class="native_color">About</a></li>
+                <li><a href="skills.html" class="native_color">Skills</a></li>
+                <li><a href="contact.html" class="native_color">Contact</a></li>
+                <li><a href="login.html" class="login native_color">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="contact_container container">
+        <div class="in_image">
+            <img src="images/anoymns.webp" alt="Aakash Timsina">
+        </div>
+        <div class="contact_content">
+
+            <h2>Contact <span>Me</span></h2>
+            <form action="">
+                <label for="Name">Full Name:</label><input type="text" name="Name" placeholder="Enter Full Name"
+                    required>
+                <label for="email">Email:</label><input type="email" name="email" placeholder="Enter Email" required>
+                <label for="phone">Phone Number:</label><input type="text" name="phone" placeholder="Enter Phone Number"
+                    required>
+                <label for="Subject">Subject:</label><input type="text" name="Subject" placeholder="Enter Subject"
+                    required>
+                <textarea name="Enter Message" cols="25" rows="5" placeholder="Enter Message"></textarea>
+                <input type="submit" value="Send">
+            </form>
+        </div>
+    </section>
+</body>
+</html>
